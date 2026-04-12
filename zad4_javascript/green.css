@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    
+    background-color: #f7f3ee; 
+    
+    margin: 0 auto;
+    padding: 60px 20px;
+    max-width: 850px;
+    
+    line-height: 1.7;
+    color: #3d403d;
+}
+
+h1, h2 {
+    color: #4a7c59;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(74, 124, 89, 0.2);
+    padding-bottom: 8px;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 15px; 
+    padding: 35px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); 
+}
+
+img {
+    width: 200px;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto 30px auto;
+    filter: sepia(20%) contrast(95%) brightness(105%);
+    border: 8px solid #ffffff;
+}
+
+/* Списки */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #4a7c59;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #2d4f39;
+    border-bottom: 1px solid #2d4f39;
+}

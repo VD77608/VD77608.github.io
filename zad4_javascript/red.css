@@ -1,0 +1,75 @@
+body {
+    background-color: #0a0000;
+    background-image: 
+        linear-gradient(rgba(255, 0, 0, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #ffcccc;
+    font-family: 'Segoe UI', Tahoma, sans-serif; 
+    margin: 0 auto;
+    padding: 60px 20px;
+    max-width: 900px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    border-left: 4px solid #ff0000;
+    padding-left: 15px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+section {
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    background: rgba(20, 0, 0, 0.8);
+    padding: 25px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+section::after {
+    content: "STAGE: IN DEVELOPMENT";
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 10px;
+    color: rgba(255, 0, 0, 0.5);
+    font-family: monospace;
+}
+
+img {
+    width: 200px;
+    filter: sepia(100%) hue-rotate(-50deg) saturate(3) contrast(1.1);
+    border: 1px solid #ff0000;
+    outline: 5px solid rgba(255, 0, 0, 0.1);
+    display: block;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li::before {
+    content: "■ ";
+    color: #ff0000;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+a {
+    color: #ff4d4d;
+    text-decoration: none;
+    border-bottom: 1px dashed #ff4d4d;
+}
+
+a:hover {
+    background: #ff0000;
+    color: #000;
+    border-bottom: 1px solid #ff0000;
+}
