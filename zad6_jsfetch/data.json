@@ -1,0 +1,29 @@
+{
+  "umiejetnosci": [
+    "Programowanie: C#, Python (tworzenie logiki, skrypty, podstawy automatyzacji)",
+    "Tworzenie gier: Godot Engine (GDScript – podstawy, systemy gameplayowe, logika gry)",
+    "Projektowanie systemów w grach (game systems design, emergent gameplay)",
+    "Analiza immersive sim (System Shock, Deus Ex, Thief – podejście systemowe i interakcje)",
+    "Algorytmiczne i analityczne myślenie (rozwiązywanie problemów technicznych)",
+    "Podstawy architektury oprogramowania i optymalizacji",
+    "Sprzęt komputerowy (hardware): zaawansowana diagnostyka, składanie, tuning",
+    "Overclocking CPU/GPU (praktyczne doświadczenie, stabilność i wydajność)",
+    "Systemy operacyjne: Windows 11 (custom builds, optymalizacja), podstawy Linux",
+    "Znajomość wydajności systemów (bottlenecks, CPU/GPU, pamięć, I/O)",
+    "Języki: angielski (C1), polski (~B2, rozwój), ukraiński (Native), rosyjski (Native)"
+  ],
+  "projekty": [
+    {
+      "tytul": "Skrypty do gier strategicznych",
+      "opis": "Tworzenie i modyfikowanie skryptów do gier takich jak Victoria 3 i Crusader Kings 3."
+    },
+    {
+      "tytul": "System ekwipunku (Godot)",
+      "opis": "Implementacja systemu zarządzania przedmiotami w grze."
+    },
+    {
+      "tytul": "Prototyp gry immersive sim",
+      "opis": "Stworzenie koncepcji i prototypu gry."
+    }
+  ]
+}
