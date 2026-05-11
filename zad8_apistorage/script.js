@@ -124,9 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 date: new Date().toLocaleString()
             };
 
-            const MOCK_API_URL = 'https://6a018cd936fb6ad04de120d3.mockapi.io/api/formforcv/:endpoint'; 
-
-            statusMsg.textContent = 'Wysyłanie danych...';
+            const MOCK_API_URL = 'https://6a018cd936fb6ad04de120d3.mockapi.io/api/formforcv/messages'; 
 
             fetch(MOCK_API_URL, {
                 method: 'POST',
